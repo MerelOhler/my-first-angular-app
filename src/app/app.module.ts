@@ -14,7 +14,6 @@ import { ServersComponent } from './servers/servers.component';
    ],
   imports: [
     BrowserModule,
-    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
