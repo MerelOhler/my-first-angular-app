@@ -5,12 +5,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
+import { BindingAssignmentComponent } from './binding-assignment/binding-assignment.component';
 
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
     ServerComponent,
-    ServersComponent
+    ServersComponent,
+      BindingAssignmentComponent
    ],
   imports: [
     BrowserModule,
